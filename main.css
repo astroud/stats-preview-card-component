@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0A0C1C;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+div.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.stats-component {
+  width: 20.4375rem;
+  background: #1b1938;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", sans-serif;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+  border-radius: 0.5rem;
+}
+div.stats-component div.text {
+  padding: 0 1.96875rem 0 1.96875rem;
+  text-align: center;
+}
+div.stats-component h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: white;
+  margin: 2.5rem 0 1rem 0;
+}
+div.stats-component h2 em {
+  color: #aa5cdb;
+  font-style: normal;
+}
+div.stats-component p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2.5rem;
+}
+div.stats-component ul {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+div.stats-component ul li {
+  list-style: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  color: white;
+  margin: 0 0 1.5rem 0;
+}
+div.stats-component ul li span.label {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  width: 100%;
+}
+div.stats-component div.graphic {
+  background: #aa5cdb;
+  height: 15rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+div.stats-component div.graphic img {
+  width: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+@media (min-width: 1110px) {
+  body {
+    margin: 0;
+  }
+
+  div.wrapper {
+    height: 100vh;
+  }
+
+  div.stats-component {
+    width: 100%;
+    height: 27.875rem;
+    max-width: 69.375rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  div.stats-component div.text {
+    order: -1;
+    max-width: 51.4%;
+    padding: 0 8.6% 0 6.5%;
+    text-align: left;
+  }
+  div.stats-component div.graphic {
+    width: 48.6%;
+    height: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  div.stats-component div.graphic img {
+    height: 100%;
+    object-fit: cover;
+  }
+  div.stats-component h2 {
+    margin: 4.4375rem 0 1.5625rem 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+  div.stats-component p {
+    margin-right: 1rem;
+    margin-bottom: 4.5rem;
+  }
+  div.stats-component ul {
+    text-align: left;
+  }
+  div.stats-component ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
